@@ -12,12 +12,12 @@ const userLinks = [
   {
     id:2,
     name: 'About',
-    href: '/about'
+    href: '/user/about'
   },
   {
     id:3,
     name: 'Contact Us',
-    href: '/contact'
+    href: '/user/contact'
   }
 ]
 

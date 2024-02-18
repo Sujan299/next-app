@@ -13,7 +13,7 @@ const adminLinks = [
     {
         id: 2,
         name: 'Add products',
-        href: '/add-products'
+        href: '/admin/add-products'
     },
 ]
 export default function RootLayout({

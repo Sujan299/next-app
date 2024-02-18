@@ -11,7 +11,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <h1>parent layout</h1> 
+        {/* <h1>parent layout</h1>  */}
         {children}
       </body>
     </html>

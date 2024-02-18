@@ -1,12 +1,13 @@
 .active {
     color: rgb(150, 0, 0);
     background-color: antiquewhite;
-    padding: 1rem;
+    /* padding: 1rem; */
     border-radius: 0.5rem;
 }
 
 .navbar {
     width: 100%;
+    margin-top: 5rem;
     /* height: 100vh; */
 }
 
@@ -51,11 +52,14 @@
 }
 
 .userNav h1 {
-    font-size: x-large;
+    font-size: xx-large;
+    letter-spacing: 3px;
 }
 
 .userNav ul {
     list-style: none;
+    display: flex;
+    margin: 1rem 0;
 }
 
 .userNav ul li {
@@ -65,6 +69,8 @@
 
 .userNav ul li a {
     text-decoration: none;
+    padding: 14px 16px;
+    margin: 0 2rem;
 }
 
 
@@ -77,7 +83,8 @@
 }
 
 .adminNav h1 {
-    font-size: x-large;
+    font-size: xx-large;
+    letter-spacing: 3px;
 }
 
 .adminNav ul {
@@ -91,6 +98,7 @@
 
 .adminNav ul li a {
     text-decoration: none;
+    padding: 14px 16px;
 }
 
 .user {
